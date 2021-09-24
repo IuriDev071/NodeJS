@@ -1,0 +1,48 @@
+body {
+    background-color: rgba(0, 255, 255, 0.555);
+    font-family: Calibri;
+    text-align: center;
+}
+
+.container {
+    border: 2px black solid;
+    background-color: rgba(255, 255, 255, 0.61);
+    border-radius: 15px 0px 15px 0px;
+    position: relative;
+    top: 125px;
+    width: 350px;
+    height: 400px;
+    left: 600px;
+}
+
+.input {
+    position: relative;
+    color: black !important;
+    font-size: 20px;
+    bottom: 50px;
+    border: 0px;
+    border-bottom: 2px rgba(0, 0, 0, 0.705) groove;
+    background-color: rgba(0, 0, 0, 0);
+    width: 180px;
+    height: 30px;
+}
+
+input {
+    bottom: 40px;
+    position: relative;
+    font-size: large;
+    color: black;
+    background-color: white;
+    border: 0px;
+    border-bottom: 3px rgba(0, 0, 0, 0.705) groove;
+    width: 45px;
+    height: 45px;
+}
+
+input:hover{
+    background-color: rgba(175, 175, 175, 0.582);
+}
+
+.input:hover{
+    background-color: rgba(0, 0, 0, 0)
+}
