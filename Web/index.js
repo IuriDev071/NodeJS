@@ -1,8 +1,8 @@
 const express = require('express')
 const { join } = require('path')
 const path = require('path')
-const router = express.Router()
 
+const router = express.Router()
 const app = express()
 const port = 4001
 
