@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="/css/feed.css">
+    <link rel="stylesheet" href="/css/responsive800px.css">
+    <link rel="stylesheet" href="/css/responsive1024px.css">
+    <!-- Knewave -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
+    <!-- Monsterrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Slider -->
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
+    <title>BLUE | Feed</title>
+</head>
+
+<body>
+    <header>
+        <div class="containerHeader">
+            <img src="/img/logoBlue.png" title="Blue." alt="logo" class="logoCT">
+            <label class="headerText"></label>
+            <button type="button" class="logBt" onclick="iHaveAccount()" title="Faça login">Entre</button>
+            <button type="button" class="cadBt" onclick="goCad()" title="Faça cadastro">Cadastre-se</button>
+            <div class="searchDiv">
+                <img src="/img/lupa.png" class="lupa" title="Search" alt="lupa">
+                <input type="text" placeholder="Pesquise aqui" class="search" />
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="containerImgs">
+            <div class="trendE">
+                <label class="trend">Tópicos populares</label>
+            </div>
+            <img src="/img/Epic-Games.jpg" class="imgG1">
+            <label class="gamb"></label>
+            <img src="/img/ubisoft.jpg" class="imgG2">
+            <label class="gamb1"></label>
+            <article class="c-carousel c-carousel--simple">
+                <div class="c-carousel__slides js-carousel--simple" style="overflow-x: hidden;">
+                  <article class="c-carousel__slide"><img src="/img/steam.jpg" class="imgS1"><label class="imgT1">Polêmica sobre a Steam</label></article>
+                  <!-- <article class="c-carousel__slide">2</article>
+                  <article class="c-carousel__slide">3</article> -->
+                  <article class="c-carousel__slide"><img src="/img/epic-games.jpg" class="imgS2"></article>
+                  <!-- <article class="c-carousel__slide">5</article> -->
+                  <article class="c-carousel__slide"><img src="/img/ubisoft.jpg" class="imgS3"></article>
+                </div>
+              
+                <button class="js-carousel--simple-prev">«</button>
+                <button class="js-carousel--simple-next">»</button>
+                <div class="js-carousel--simple-dots"></div>
+              </article>
+            <!-- <div class="img1">
+                <label class="imgT1">Polêmica sobre a Epic Games</label>
+                <img src="../img/Epic-Games.jpg" class="imgS1" title="Epic Games">
+            </div>
+
+            <div class="img2">
+                <label class="imgT2">Steam vs Epic nos jogos gratuitos</label>
+                <img src="../img/steam.png" class="imgS2" title="Steam">
+            </div>
+
+            <div class="img3">
+                <label class="imgT3">Ubisoft lança FPS gratuito este ano</label>
+                <img src="../img/ubisoft.jpg" class="imgS3" title="Ubisoft">
+            </div> -->
+        </div>
+
+        <div class="feed">
+            <div class="mstl">
+                <label class="mstl2">Comentários mais curtidos</label>
+            </div>
+            <div class="containerPost1">
+                <div class="headerPost1">
+                    <img src="/img/user1.png" class="imgP1" title="User 1">
+                    <label class="txtP1">@usuário</label>
+                </div>
+                <div class="mainPost1">
+                    <label class="says">Disse ...</label>
+                    <textarea class="Axt1" style="resize: none;" readonly> Mano, LOL >>> DOTA2 xD xD</textarea>
+                </div>
+                <div class="likes">
+                    <img src="/img/likeInsta.png" class="like">
+                    <label class="numLike">3.5k Curtidas</label>
+                    <img src="/img/save.png" class="save">
+                    <label class="save2">Salvar</label>
+                </div>
+                <div class="sideTxt">
+                    <label class="txtSee">Veja mais em:</label>
+                    <button type="button" class="lol">Tópico League of Legends</button>
+                </div>
+            </div>
+            <div class="containerPost2">
+                <div class="headerPost1">
+                    <img src="/img/user2.png" class="imgP12" title="User 2">
+                    <label class="txtP12">@usuário</label>
+                </div>
+                <div class="mainPost1">
+                    <label class="says1">Disse ...</label>
+                    <textarea class="Axt12" style="resize: none;"
+                        readonly> Eu adoro Valorant, é muito divertido!! :D</textarea>
+                </div>
+                <div class="likes1">
+                    <img src="/img/likeInsta.png" class="like">
+                    <label class="numLike">1.2k Curtidas</label>
+                    <img src="/img/save.png" class="save">
+                    <label class="save2">Salvar</label>
+                </div>
+                <div class="sideTxt2">
+                    <label class="txtSee">Veja mais em:</label>
+                    <button type="button" class="vava">Tópico Valorant</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="containerFooterNews">
+            <label class="newRegister">Registre-se para mais novidades</label>
+            <input type="email" placeholder="  Digite o email para mais novidades" class="newEmail" />
+            <button class="buttonRegister" onclick="Register()">Enviar</button>
+        </div>
+        <div class="containerFooterSocial">
+            <label class="contato">Quem somos?</label>
+            <div class="social">
+            </div>
+            <div class="devs">
+                <label class="devN">DESENVOLVEDORES</label>
+                <div class="imgs">
+                    <img src="/img/amon.png" class="amon">
+                    <label class="tAmon">Amon</label>
+                    <div class="imagens1">
+                        <img src="/img/linke.png" class="linkedin1">
+                        <img src="/img/insta.png" class="instagram1">
+                    </div>
+                    <img src="/img/iuri.png" class="iuri">
+                    <label class="tIuri">Iuri</label>
+                    <div class="imagens2">
+                        <img src="/img/linke.png" class="linkedin2">
+                        <img src="/img/insta.png" class="instagram2">
+                    </div>
+                </div>
+            </div>
+            <div class="oby">
+                <label class="obyT">Sobre nos:</label>
+                <label class="aboutUs">Somos estudantes de progamação,<br> apaixonados por tecnologia e games,<br>
+                    desenvolvemos esse site visando <br> praticar e aprimorar nossos conhecimentos,<br>
+                    e tambem pensando na comunidade de games.
+                </label>
+            </div>
+            <img src="/img/oby.png" class="obyImg">
+        </div>
+    </footer>
+    <script src="/scripts/feed.js"></script>
+    <script src="/scripts/buttons.js"></script>

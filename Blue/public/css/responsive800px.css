@@ -1,0 +1,217 @@
+@media (max-width: 800px) {
+    .searchDiv{
+        width: 200px;
+        left: 60px;
+        top: -100px;
+    }
+    .search{
+        width: 149px;
+    }
+    .logoCT{
+        width: 40px;
+    }
+    .logBt{
+        top: -58px;
+        width: 55px;
+        left: 265px;
+        font-size: 13px;
+    }
+    .cadBt{
+        width: 74px;
+        height: 40px;
+        left: 265px;
+        top: -47px;
+        font-size: 12px;
+    }
+    .containerHeader{
+        height: 8%;
+    }
+    .containerImgs{
+        width: 90%;
+        left: 5%;
+        top: 110px;
+    }
+    .imgS1{
+        width: 380px;
+        top: 0px;
+        height: 170px;
+        left: 0px;
+        border-radius: 0px 0px 0px 0px;
+    }
+    .imgT1{
+        top: 145px;
+        left: 2px;
+    }
+    .imgS2{
+        width: 100%;
+        border-radius: 0px 0px 0px 0px;
+    }
+    .imgS3{
+        border-radius: 0px 0px 0px 0px;
+        width: 100%;
+    }
+    .feed{
+        width: 90%;
+        left: 5%;
+    }
+    .trendE{
+        position: absolute;
+        top: -28px;
+    }
+    .gamb1{
+        width: 2px;
+        height: 2px;
+        left: 50000px;
+    }
+    .gamb1{
+        left: 50000px;
+        width: 2px;
+        height: 2px;
+    }
+    .imgG1{
+        left: 50000px;
+        width: 2px;
+        height: 2px;
+        position: absolute;
+    }
+    .imgG2{
+        left: 50000px;
+        width: 2px;
+        height: 2px;
+        position: absolute;
+    }
+    .js-carousel--simple-prev{
+    position: relative;
+    top: -102px;
+    height: 30px;
+    left: 0px;
+    width: 30px;
+    font-size: 20px;
+    background-color: rgba(7, 71, 166, 0.618);
+    border: 0;
+    border-radius: 10px;
+}
+.js-carousel--simple-next{
+    position: relative;
+    top: -102px;
+    height: 30px;
+    width: 30px;
+    left: 295.2px;
+    font-size: 20px;
+    background-color: rgba(7, 71, 166, 0.618);
+    border: 0;
+    border-radius: 10px;
+}
+.js-carousel--simple-dots{
+    position: relative;
+    top: -26px;
+}
+    .mstl{
+        width: 350px;
+    }
+    .says{
+        font-size: 14px;
+        left: 100px;
+    }
+    .imgP1{
+        width: 100px;
+    }
+    .txtP1{
+        font-size: 13px;
+        left: 15px;
+    }
+    .txtP12{
+        font-size: 13px;
+        left: 15px;
+    }
+    .imgP12{
+        left: -5px;
+        width: 100px;
+    }
+    .Axt1{
+        width: 220px;
+        left: 110px;
+    }
+    .likes{
+        width: 230px;
+        left: 70px;
+    }
+    .like{
+        width: 38px;
+        left: 30px;
+    }
+    .numLike{
+        left:28px;
+    }
+    .save{
+        left: 40px;
+    }
+    .save2{
+        left: 35px;
+    }
+    .sideTxt{
+        left: 0px;
+        width: 130px;
+    }
+    .txtSee{
+        font-size: 13px;
+        left: 8px;
+        top: 70px;
+    }
+    .lol{
+        font-size: 11.5px;
+        left: -20px;
+        top: 90px;
+    }
+    .says1{
+        font-size: 14px;
+        left: 100px;
+    }
+    .Axt12{
+        width: 220px;
+        left: 110px;
+    }
+    .likes1{
+        width: 230px;
+        left: 70px;
+    }
+    .sideTxt2{
+        top: -235px;
+        left: 0px;
+        width: 130px;
+    }
+    .vava{
+        font-size: 12px;
+        left: 3px;
+        top: 85px;
+    }
+    .newRegister{
+        width: 200px;
+        left: 20px;
+        top: 50px;
+    }
+    .newEmail{
+        width: 345px;
+        left: 20px;
+        top: 65px;
+    }
+    .buttonRegister{
+        top: 90px;
+        left: 155px;
+    }
+    /* .devs{
+        left: 0px;
+        width: 500px;
+    } */
+    .contato{
+        top: 0px;
+        left: 100px;
+    }
+    .devN{
+        position: absolute;
+        left: 30px;
+    }
+    .amon{
+        width: 10px !important;
+    }
+}

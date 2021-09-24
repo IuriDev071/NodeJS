@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="/css/cadastro.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
+    <title>BLUE | CADASTRO</title>
+</head>
+<body>
+    <main>
+    <div class="divCad">
+    <table class="container">
+        <tr>
+            <td>
+                <label class="title">CADASTRE-SE</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input placeholder="Nome Completo" type="text" id="nomeCompleto" class="inputCad"/> 
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <input placeholder="Email" type="email" id="email"/> 
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input placeholder="Usuário" type="text" id="user"/>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <input placeholder="Senha" type="password" id="senhaCadastro"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input placeholder="Confirme sua senha" type="password" id="confirmarSenha"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button onclick="Registrar()" class="register">Registrar</button>
+                <br><br>
+                <button onclick="iHaveAccount()" class="iHaveAcc">Já possuo conta</button>
+            </td>
+        </tr>
+    </table>
+    </div>
+    <div>
+        <img src="../img/cadastroText.png" class="txt2">
+    </div>
+    </main>
+    <script src="/scripts/cadastro.js"></script>
+    <script src="/scripts/buttons.js"></script>
+</body>
+</html>

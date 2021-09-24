@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/login.css"> 
+    <title>BLUE | LOGIN</title>
+</head>
+<body>
+    <main>
+    <div class="divLog">
+    <table class="container">
+        <tr>
+        <td>
+            <label class="title">SEJA BEM VINDO!</label>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <input placeholder="Usuário" type="text" id="usuarioLogin"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input placeholder="Senha" type="password" id="senhaLogin"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button onclick="Login()" class="login">Login</button>
+                <br>
+                <button onclick="forgotPassword()" class="forgotPassword">Esqueci minha senha</button>
+        </tr>
+    </table>
+    </div>
+
+    <label class="forgot">Ainda não possui conta?</label>
+    <button onclick="goCad()" class="iHas">Cadastre-se</button>
+    
+    <div>
+        <img src="/img/loginText.png" class="txt">
+    </div>
+    </main>
+    <script src="/scripts/login.js"></script>
+    <script src="/scripts/buttons.js"></script>
+</body>
+</html>

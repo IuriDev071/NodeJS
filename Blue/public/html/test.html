@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
+</head>
+<body>
+    <article class="c-carousel c-carousel--simple">
+        <div class="c-carousel__slides js-carousel--simple">
+          <article class="c-carousel__slide"><img src="../img/steam.png" alt=""></article>
+          <article class="c-carousel__slide">2</article>
+          <article class="c-carousel__slide">3</article>
+          <article class="c-carousel__slide">4</article>
+          <article class="c-carousel__slide">5</article>
+          <article class="c-carousel__slide">6</article>
+        </div>
+      
+        <button class="js-carousel--simple-prev">«</button>
+        <button class="js-carousel--simple-next">»</button>
+        <div class="js-carousel--simple-dots"></div>
+      </article>
+      <script>
+          var $simpleCarousel = document.querySelector(".js-carousel--simple");
+ 
+ new Glider($simpleCarousel, {
+   slidesToShow: 2,
+   slidesToScroll: 2,
+   draggable: true,
+   dots: ".js-carousel--simple-dots",
+   arrows: {
+     prev: ".js-carousel--simple-prev",
+     next: ".js-carousel--simple-next",
+   },
+ });
+      </script>
+</body>
+</html>
