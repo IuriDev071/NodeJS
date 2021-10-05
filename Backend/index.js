@@ -21,7 +21,9 @@ app.get('/login', (req, res) => {
      res.status(200, 'OK')
 })
 
-app.get('/usuarios', (req, res) => {
+app.post('/usuarios', (req, res) => {
+    const {nome, senha} = res.json(req.body)
+
     if(nome != null || senha != null) {
         const newUser = new User(req.body)
           newUser.save()
@@ -35,5 +37,5 @@ app.get('/usuarios', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log("Rodando na porta 3002\nDigite a URL: localhost:3000")
+    console.log("Rodando na porta 3002\nDigite a URL: localhost:3002")
 })
