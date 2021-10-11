@@ -1,3 +1,3 @@
 # NodeJS
 
-Alguns dos meus projetos em NodeJS.
+Alguns dos meus projetos pessoais que fiz em NodeJS.
