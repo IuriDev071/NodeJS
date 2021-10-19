@@ -15,6 +15,12 @@ app.get('/', (req, res) => {
     res.status(200, 'Ok').json('Backend rodando')
 })
 
+app.get('/usuario/login/', async (req, res) => {
+    const {email, senha} = req.query
+    const usuarios = await User.find(email, senha)
+    res.status(200, 'Ok').json(usuarios)
+})
+
 app.post('/usuario', (req, res) => {
     const {nome, email, senha} = req.query
     const newUser = new User(req.query)
@@ -30,16 +36,10 @@ app.post('/usuario', (req, res) => {
         } else {
             return res.status(400, 'Bad request')
         }
-})
-
-app.get('/usuario/login/', async (req, res) => {
-    const {email, senha} = req.query
-    const usuarios = await User.find(email, senha)
-    res.status(200, 'Ok').json(usuarios)
-})
-
+    })
+    
 // app.delete('/usuario/remove/', async (req, res) => {
-//     const {email, senha, nome} = req.query
+///     const {email, senha, nome} = req.query
 //     const usersDel = await User.remove(email, senha, nome)
 //     res.status(202, 'Accepted').json(usersDel)
 // })
