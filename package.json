@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "axios": "^0.22.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "mongoose": "^6.0.11"
+  },
+  "name": "backend-login",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Oby",
+  "license": "ISC",
+  "description": "Backend do login"
+}
